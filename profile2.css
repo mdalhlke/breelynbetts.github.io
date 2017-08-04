@@ -1,0 +1,27 @@
+h1, em {
+  color: rgb(188,143,143);
+  font-family: fantasy;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  text-align: center;
+  font-family: cursive;
+}
+
+img.boston {
+  margin-top: 3%;
+}
+
+h2 {
+  text-align: center;
+}
+img {
+  margin-right: 5px;
+}
