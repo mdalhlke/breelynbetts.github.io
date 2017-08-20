@@ -1,27 +1,105 @@
+
 h1, em {
   color: rgb(188,143,143);
   font-family: fantasy;
   text-align: center;
   text-shadow: 1px 1px black;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 35px;
 }
 
-p {
+
+img.shop {
+  margin-left: 10%;
+
+}
+
+h3 {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+  background-color: white;
+}
+
+.nav {
+  background-color: none;
+  color: #ffffff;
+  list-style: none;
   text-align: center;
-  font-family: cursive;
+  padding: 10px 0px 10px 0px;
 }
 
-img.boston {
-  margin-top: 3%;
+li {
+  font-size: 17px;
+}
+.nav > li {
+  display: inline-block;
+  padding: 0px 20px 0px 20px;
 }
 
-h2 {
-  text-align: center;
+.nav > li > a {
+  text-decoration: none;
+  color: black;
 }
-img {
-  margin-right: 5px;
+
+.nav > li > a:hover {
+  color: grey;
 }
+
+li~li {
+  border-left: 1px solid #000000
+}
+
+iframe {
+  margin-left: 10%;
+}
+
+.video-container {
+  position: relative;
+  padding bottom: 56.25%;
+  padding top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+img.verve {
+  margin-left: 10%;
+  padding-top: 2%;
+}
+
+.verticalLine {
+  border: solid black;
+  margin: 2%;
+  border-top: none;
+  border-bottom: none;
+
+}
+
+h2{
+  overflow: auto;
+}
+
+h2 span{
+  float: center;
+  margin-top: 2%;
+  margin-left: 7%;
+}
+
+h2 img{
+   float: left;
+}​
