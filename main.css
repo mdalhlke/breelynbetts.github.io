@@ -89,3 +89,8 @@
     font-family: 'Bowlby One SC', cursive;
     font-size: 40px;
 }
+
+.starlogo {
+    position: relative;
+    z-index: -1;
+}
