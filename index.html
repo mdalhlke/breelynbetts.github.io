@@ -4,80 +4,92 @@
         <meta charset="UTF-8">
         <title>Breelyn Betts' Github Website</title>
         <link rel="stylesheet" type="text/css" href="./main.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="icon" href="./mylogo.png" type="image/png" sizes="32x32"/>
     </head>
     <body>
-        <div class="header">
-            <h1>Breelyn Betts</h1>
 
-            <nav id="nav" class="navbar navbar-expand-sm bg-none justify-content-center">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <ul id="slide-out" class="sidenav sidenav-fixed">
+            <img class='sidebarimg'src="./mylogo.png" alt="Profile" height="200px">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#" data-target="slide-out" class="left sidenav-trigger hide-on-medium-and-up"><i class="material-icons">menu</i></a>
 
-        <div class="container">
-        <div id="about">
-            <img src="./profile.jpg" alt="Profile" height="500px">
-            <div class="aboutInfo">
-                <h4>About Me!</h4>
-                <p>
-                    Hi, my name is Breelyn Betts! I am a Junior, Computer Science major at Loyola Marymount University in Los Angeles, CA. 
-                    I grew up about an hour outside of Los Angeles in Corona, California. 
-                    <br><br>
-                    Outside of Computer Science I am a member of Creare Service Organization, a Resident Advisor and an Associate Justice for the 
-                    Associated Students of Loyola Marymount University(ASLMU). I am also a former member of Delta Zeta Sorority. 
-                </p>
+        <header>
+            <div class="header">
+                <h1>Breelyn Betts</h1>
+                <div class="headerLine"></div>
             </div>
-        </div>
-
-        <div class="container"></div>
-
-        <div id="projects">
-            <h3>Relevant Projects</h3>
-            <div class="row">
-                <div class="col s4">
-                    <img src="./stargazinglogo.jpg" height="250px" class="starlogo"> 
-                    <h5>Star Gazing!</h5>
-                    <p>
-                        This is an application created in my Interaction Design course. The application uses the Earth Observatory Natural Event Tracker (EONET) API, 
-                        the Astronomy Picture of the Day API and the NASA Image and Video Library API. 
-                    </p>
-                    <button class="waves-effect waves-light btn" onclick="location.href = 'https://github.com/breelynbetts/react' ">GITHUB REPO</button>
-                </div>
-                <div class="col s4">
-                    <h5>HYPER!</h5>
-                    <p>
-                        Hyper is a language I am in the process of developing in my Language Translation and Implementation course. Take a look at the 
-                        GitHub repository for the latest updates. 
-                    </p>
-                    <button class="waves-effect waves-light btn" onclick="location.href = 'https://github.com/breelynbetts/HYPER' ">GITHUB REPO</button>
-
-                </div>
-                <div class="col s4">
-
-                </div>
-            </div>
-
-            <a href="https://science.nd.edu/news/blossoming-student-startup-designs-crystallized-flowers-for-cancer-patients/" target="_blank">Flourish3D Information!</a>
-        </div>
+        </header>
         
-        <div id="skills">
-            <h3>Skills</h3>
-        </div>
+        <main>
+        <div class="container">
+            <div id="about">
+                <img src="./profile.jpg" alt="Profile" height="500px">
+                <div class="aboutInfo">
+                    <h4>About Me!</h4>
+                    <p>
+                        Hi, my name is Breelyn Betts! I am a Junior, Computer Science major at Loyola Marymount University in Los Angeles, CA. 
+                        I grew up about an hour outside of Los Angeles in Corona, California. 
+                        <br><br>
+                        Outside of Computer Science I am a member of Creare Service Organization, a Resident Advisor and an Associate Justice for the 
+                        Associated Students of Loyola Marymount University(ASLMU). I am also a former member of Delta Zeta Sorority. 
+                    </p>
+                    <button class="waves-effect waves-light btn" onclick="location.href = 'https://github.com/breelynbetts' ">GITHUB</button>
+                    <button class="waves-effect waves-light btn" onclick="location.href = 'https://www.linkedin.com/in/breelynbetts/' ">LinkedIn</button>
+                    <button class="waves-effect waves-light btn" onclick="location.href = 'https://drive.google.com/file/d/1JhQ2QcVov-t3dt9uMzkgVWlRitzJS1Az/view?usp=sharing' ">RESUME</button>
+                </div>
+            </div>
 
-        <div id="contact">
-            <h3>Contact Information</h3>
-        </div>
-        </div>
+            <div id="projects">
+                <h3>Relevant Projects</h3>
+                <div class="row">
+                    <div class="col s4">
+                        <img src="./stargazinglogo.jpg" height="250px" class="starlogo"> 
+                        <h5>Star Gazing!</h5>
+                        <p>
+                            This is an application created in my Interaction Design course. The application uses the Earth Observatory Natural Event Tracker (EONET) API, 
+                            the Astronomy Picture of the Day API and the NASA Image and Video Library API. 
+                        </p>
+                        <button class="waves-effect waves-light btn" onclick="location.href = 'https://github.com/breelynbetts/react' ">GITHUB REPO</button>
+                    </div>
+                    <div class="col s4">
+                        <img src="./hyper.png" height="250px" class="starlogo"> 
+                        <h5>HYPER!</h5>
+                        <p>
+                            Hyper is a language I am in the process of developing in my Language Translation and Implementation course. Take a look at the 
+                            GitHub repository for the latest updates. 
+                        </p>
+                        <button class="waves-effect waves-light btn" onclick="location.href = 'https://github.com/breelynbetts/HYPER' ">GITHUB REPO</button>
+    
+                    </div>
+                    <div class="col s4">
+                        <img src="./codeulogo.png" height="250px" class="starlogo"> 
+                        <h5>CodeU Project</h5>
 
+    
+                    </div>
+                </div>
+    
+                <a href="https://science.nd.edu/news/blossoming-student-startup-designs-crystallized-flowers-for-cancer-patients/" target="_blank">Flourish3D Information!</a>
+            </div>
+            
+            <div id="skills">
+                <h3>Skills</h3>
+            </div>
+    
+            <div id="contact">
+                <h3>Contact Information</h3>
+            </div>
+            </div>
+        </main>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <script src="./main.js"></script>
     </body>
 </html>
